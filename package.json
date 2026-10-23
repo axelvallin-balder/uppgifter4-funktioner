@@ -1,0 +1,28 @@
+{
+  "name": "vite-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest --config src/jest.config.cjs",
+    "test1": "npm test -- src/tests/uppgift1.test.ts",
+    "test2": "npm test -- src/tests/uppgift2.test.ts",
+    "test3": "npm test -- src/tests/uppgift3.test.ts",
+    "test4": "npm test -- src/tests/uppgift4.test.ts",
+    "test5": "npm test -- src/tests/uppgift5.test.ts",
+    "test6": "npm test -- src/tests/uppgift6.test.ts",
+    "test7": "npm test -- src/tests/uppgift7.test.ts",
+    "test8": "npm test -- src/tests/uppgift8.test.ts",
+    "test9": "npm test -- src/tests/uppgift9.test.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.12",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
